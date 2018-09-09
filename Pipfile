@@ -7,9 +7,12 @@ name = "pypi"
 django = "*"
 django-extensions = "*"
 graphene-django = "*"
+graphene = ">=2.0"
 
 [dev-packages]
 pylint = "*"
+gnureadline = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.7"
