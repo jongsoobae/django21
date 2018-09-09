@@ -13,7 +13,7 @@ class Classs(models.Model):
 
     objects = models.Manager()
 
-    def __repr__(self):
+    def __str__(self):
         return '{}: {}'.format(self.school.name, self.name)
 
 
